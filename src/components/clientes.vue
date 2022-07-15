@@ -8,7 +8,7 @@ export default {
   },
   methods: {
     traer() {
-      fetch('https://jltecnicos.com/pixtages/api/api.php?sel=nombreclientes')
+      fetch('https://')
         .then((response) => response.json())
         .then((data) => (this.clientes = data))
         .catch((error) => console.log(error));
